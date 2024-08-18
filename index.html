@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Optimizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Prompt Optimizer</h1>
+            <p>Optimize your text by setting a character limit and removing unnecessary characters.</p>
+        </header>
+
+        <main class="main-grid">
+            <section class="input-section">
+                <h2>Text to Optimize</h2>
+                <label for="limit">Character Limit:</label>
+                <input type="number" id="limit" placeholder="Enter character limit">
+
+                <label for="text-input">Paste Your Text Here:</label>
+                <textarea id="text-input" placeholder="Paste your text here"></textarea>
+
+                <button id="optimize-button">Optimize Text</button>
+            </section>
+
+            <section class="result-section">
+                <h2>Optimized Text</h2>
+                <textarea id="result-output" readonly></textarea>
+                <button id="copy-button">Copy to Clipboard</button>
+            </section>
+        </main>
+
+        <section class="about">
+            <h2>About Prompt Optimizer</h2>
+            <p>Prompt Optimizer helps you:</p>
+            <ul>
+                <li><strong>Set Character Limits:</strong> Ensure your text fits within specified constraints.</li>
+                <li><strong>Clean Up Text:</strong> Remove unnecessary spaces and characters such as *, #, and more.
+                </li>
+                <li><strong>Copy Easily:</strong> Quickly copy the optimized text to your clipboard.</li>
+            </ul>
+            <p>Perfect for preparing AI prompts, concise messages, or fitting text into character-restricted fields.</p>
+        </section>
+
+        <footer class="footer">
+            <p>Created by <a href="https://www.linkedin.com/in/jairpjunior/" target="_blank">Jair Junior</a> with
+                ChatGPT. Follow me on LinkedIn.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
