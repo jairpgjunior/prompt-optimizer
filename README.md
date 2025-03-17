@@ -1,7 +1,7 @@
 # Prompt Optimizer
 
 ## Overview
-Prompt Optimizer is a lightweight tool designed to refine and optimize AI prompts for platforms with strict input limitations, such as v0 Lovable and Bolt.dev. It ensures your prompts remain concise while retaining their intended meaning and effectiveness.
+Prompt Optimizer is a lightweight tool designed to refine and optimize AI prompts for platforms with strict input limitations, such as v0, Lovable and Bolt. It ensures your prompts remain concise while retaining their intended meaning and effectiveness.
 
 ## Features
 - **Character Limit Enforcement**: Adjusts prompts to fit within predefined constraints.
